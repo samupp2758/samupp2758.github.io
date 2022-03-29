@@ -1,10 +1,12 @@
 import {Container, 
-    Title,
+    Logo,
     Box,
     TitleContainer,
     ItemsContainer,
     HireMe,
     Item} from './style/Menu'
+import { SocialIcon } from 'react-social-icons';
+
 
 
 function Menu () {
@@ -13,13 +15,13 @@ function Menu () {
         <Container>
             <Box>
                 <TitleContainer>
-                    <Title>S</Title>
+                    <Logo src='./images/logoSymbol.png'/>
                 </TitleContainer>
                 <ItemsContainer>
-                    <Item>About</Item>
-                    <Item>Contact</Item>
-                    <Item>Projects</Item>
-                    <HireMe>Hire Me</HireMe>
+                    <Item><SocialIcon fgColor="#1060ff" bgColor="#f1f1f1" url="https://twitter.com/elsamu_v" /></Item>
+                    <Item><SocialIcon fgColor="#1060ff" bgColor="#f1f1f1" url="https://www.instagram.com/samu.el_v/" /></Item>
+                    <Item><SocialIcon fgColor="#1060ff" bgColor="#f1f1f1" url="https://github.com/samupp2758" /></Item>
+                    <HireMe onClick={()=>{window.location = "mailto:samuelmv123@gmail.com"}}>Hire me</HireMe>
                 </ItemsContainer>
             </Box>
         </Container>

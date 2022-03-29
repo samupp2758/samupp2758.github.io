@@ -26,10 +26,14 @@ justify-content: flex-end;
 `
 
 
-export const Title = styled.p`
+export const Logo = styled.img`
     font-size: 20pt;
     margin-left:20px;
+    margin-top: 10px;
     font-weight: 400;
+    width: 10vh;
+    height: 10vh;
+    border-radius:20px;
     color: #1060ff ;
 
 `
@@ -46,13 +50,39 @@ width: 50vw;
 export const HireMe = styled.button`
     margin-left:10px;
     margin-right: 20px;
+    padding: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left:30px;
+    background-color: #1060ff;
+    border:none;
+    font-size: 15pt;
+    border-radius:10px;
+    color: #ffffff;
+    box-shadow: 5px 7px 10px #23232322;
+    transition:0.3s;
+
+    &:hover {
+    transition:0.3s;
+    cursor: pointer;
+    box-shadow: 5px 7px 20px #23232322;
+    margin-top: -5px;
+    }
 `
 
 
 export const Item = styled.p`
-margin-left:20px;
-
-font-size: 15pt;
+    font-size: 15pt;
     font-weight: 400;
-    color: #232323aa ;
+    color: #1060ff ;
+    transition:0.3s;
+    border-radius:100000000000000000000px;
+    margin-left: 20px;
+
+    &:hover {
+    transition:0.3s;
+    cursor: pointer;
+    box-shadow: 5px 7px 20px #23232322;
+    margin-top: -5px;
+    }
 `
