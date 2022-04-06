@@ -14,9 +14,6 @@ function Menu () {
     return(
         <Container>
             <Box>
-                <TitleContainer>
-                    <Logo src='./images/logoSymbol.png'/>
-                </TitleContainer>
                 <ItemsContainer>
                     <Item><SocialIcon fgColor="#1060ff" bgColor="#f1f1f1" url="https://twitter.com/elsamu_v" /></Item>
                     <Item><SocialIcon fgColor="#1060ff" bgColor="#f1f1f1" url="https://www.instagram.com/samu.el_v/" /></Item>

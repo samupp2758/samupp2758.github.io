@@ -2,7 +2,6 @@ import styled, {createGlobalStyle} from 'styled-components';
 
 
 export const Container = styled.div`
-    width: 100%;
     height: 10vh;
     background-color: transparent;
     display:flex;
@@ -12,24 +11,24 @@ export const Container = styled.div`
 `
 
 export const Box = styled.div`
-    width: calc(100%);
     height: 10vh;
-    background-color: #f1f1f1;
     display: flex;
 `
 
 export const ItemsContainer = styled.div`
 display:flex;
-width: 50vw;
 align-items: center;
-justify-content: flex-end;
+justify-content: center;
+
+@media only screen and (max-width: 550px) {
+    width: 100vw;
+
+    }
 `
 
 
 export const Logo = styled.img`
     font-size: 20pt;
-    margin-left:20px;
-    margin-top: 10px;
     font-weight: 400;
     width: 10vh;
     height: 10vh;
@@ -50,10 +49,8 @@ width: 50vw;
 export const HireMe = styled.button`
     margin-left:10px;
     margin-right: 20px;
-    padding: 30px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-left:30px;
+    width: 140px;
+    height: 45px;
     background-color: #1060ff;
     border:none;
     font-size: 15pt;
@@ -61,12 +58,19 @@ export const HireMe = styled.button`
     color: #ffffff;
     box-shadow: 5px 7px 10px #23232322;
     transition:0.3s;
+    line-break: always;
 
     &:hover {
     transition:0.3s;
     cursor: pointer;
     box-shadow: 5px 7px 20px #23232322;
     margin-top: -5px;
+    }
+
+
+    @media only screen and (max-width: 550px) {
+    font-size: 10pt;
+
     }
 `
 
