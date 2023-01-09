@@ -44,6 +44,7 @@ export const Title = styled.p`
     font-weight: 700;
     line-break: normal;
 
+    
     @media only screen and (max-width: 550px) {
     font-size: 2.5em;
     }
@@ -101,6 +102,7 @@ export const Right = styled.div`
     border-radius: 10px;
     box-shadow: 0px 7px 7px #23232333;
     margin-top: 20px;
+    margin-bottom:40px;
 background: #232323;
 
 @media only screen and (max-width: 550px) {
@@ -228,4 +230,9 @@ color: #f00a5e;
 export const LB = styled.p`
 margin-left: 30px;
     background: #232323;
+`
+export const Footer = styled.p`
+text-align:center;
+margin-bottom:20px;
+margin-top:-10px;
 `
