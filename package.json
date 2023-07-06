@@ -1,6 +1,6 @@
 {
   "name": "my-site",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "dependencies": {
     "@react-spring/web": "^9.7.3",
@@ -9,6 +9,7 @@
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
+    "caniuse-lite": "^1.0.30001512",
     "radium": "^0.26.1",
     "react": "^17.0.2",
     "react-animations": "^1.0.0",
