@@ -5,8 +5,6 @@ export const Container = styled.div`
     height: 10vh;
     background-color: transparent;
     display:flex;
-    justify-content: center;
-    align-items: center;
     position:sticky;
 `
 
@@ -26,16 +24,6 @@ justify-content: center;
     }
 `
 
-
-export const Logo = styled.img`
-    font-size: 20pt;
-    font-weight: 400;
-    width: 10vh;
-    height: 10vh;
-    border-radius:20px;
-    color: #1060ff ;
-
-`
 
 export const TitleContainer = styled.div`
     display:flex;
