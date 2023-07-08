@@ -6,6 +6,13 @@ export const Container = styled.div`
     background-color: transparent;
     display:flex;
     position:sticky;
+
+
+  @media only screen and (max-width: 800px) {
+    justify-content:center;
+
+    margin-left:-20px;
+    }
 `
 
 export const Box = styled.div`
@@ -18,10 +25,6 @@ display:flex;
 align-items: center;
 justify-content: center;
 
-@media only screen and (max-width: 550px) {
-    width: 100vw;
-
-    }
 `
 
 
@@ -33,35 +36,6 @@ export const TitleContainer = styled.div`
 
 width: 50vw;
 `
-
-export const HireMe = styled.button`
-    margin-left:10px;
-    margin-right: 20px;
-    width: 140px;
-    height: 45px;
-    background-color: #1060ff;
-    border:none;
-    font-size: 15pt;
-    border-radius:10px;
-    color: #ffffff;
-    box-shadow: 5px 7px 10px #23232322;
-    transition:0.3s;
-    line-break: always;
-
-    &:hover {
-    transition:0.3s;
-    cursor: pointer;
-    box-shadow: 5px 7px 20px #23232322;
-    margin-top: -5px;
-    }
-
-
-    @media only screen and (max-width: 550px) {
-    font-size: 10pt;
-
-    }
-`
-
 
 export const Item = styled.p`
     font-size: 15pt;
